@@ -1,0 +1,588 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="js/Magnific-Popup-master/dist/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.0/slick/slick.css" />
+    <!--<link rel="stylesheet" type="text/css" href="js/slick-1.8.0/slick/slick-theme.css" />-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/products_all.css" rel="stylesheet" type="text/css">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-contact">
+                        <a class="header-mail" href="mailto:info@shopy.com">info@shopy.com</a>
+                        <a class="header-phone" href="tel:4535553996">453 - 5553 - 996</a>
+                    </div>
+                    <ul class="header-social">
+                        <li><a href="#" class="header-social-link header-social-link_fb"></a></li>
+                        <li><a href="#" class="header-social-link header-social-link_tw"></a></li>
+                        <li><a href="#" class="header-social-link header-social-link_google"></a></li>
+                        <li><a href="#" class="header-social-link header-social-link_inst"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-bot clearfix">
+                <div class="container">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="img/header/header-logo.png" alt="logotype"></a>
+                    </div>
+                    <div class="header-nav">
+                        <div class="sandwich">
+                            <span class="sandwich-line sandwich-line-top"></span>
+                            <span class="sandwich-line sandwich-line-middle"></span>
+                            <span class="sandwich-line sandwich-line-bottom"></span>
+                        </div>
+                        <ul class="header-nav__list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products_all.html" class="active">Products</a></li>
+                            <li><a href="#">Hot Deals</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-action">
+                        <div class="header-search">
+                            <i class="header-search__icon">
+                                
+                            </i>
+                            <form action="" class="header-search__form"><input type="text"></form>
+                        </div>
+                        <div class="header-user">
+                            <i class="header-user__icon">
+
+                            </i>
+                        </div>
+                        <div class="header-basket">
+                            <i class="header-basket__icon">
+
+                            </i>
+                            <span class="header-basket__number">5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    
+    <section class="products_all-wrap">
+        <div class="container">
+           
+           <div class="products_all-side">
+                <div class="products_categories">
+                    <div class="side-title">Categories</div>
+                    <div class="category">
+                        <input type="radio" id="filter-category-man" name="fiter-category">
+                        <label for="filter-category-man">Man</label>
+                    </div>
+                    <div class="category">
+                        <input type="radio" id="filter-category-women" name="fiter-category">
+                        <label for="filter-category-women">Women</label>
+                    </div>
+                    <div class="category">
+                        <input type="radio" id="filter-category-childrens" name="fiter-category">
+                        <label for="filter-category-childrens">Childrens</label>
+                    </div>
+                    <div class="category">
+                        <input type="radio" id="filter-category-deals" name="fiter-category">
+                        <label for="filter-category-deals">Hot Deals</label>
+                    </div>
+               </div>
+               
+               <div class="price-filter">
+                   <div class="side-title">Price Filter</div>
+                   <input type="range">
+                   <div class="price-filter-text">
+                       <div class="price-from">
+                           <span>From</span>
+                           <input type="text">
+                       </div>
+                       <div class="price_to">
+                           <span>To</span>
+                           <input type="text">
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="products_sizes">
+                    <div class="side-title">Sizes</div>
+                    <div class="sizes">
+                        <label for="sizes-small" class="checkbox">Small
+                            <input type="checkbox" id="sizes-small">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                    <div class="sizes">
+                        <label for="sizes-medium" class="checkbox">Medium
+                            <input type="checkbox" id="sizes-medium">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                    <div class="sizes">
+                        <label for="sizes-larg" class="checkbox">Larg
+                            <input type="checkbox" id="sizes-larg">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                    <div class="sizes">
+                        <label for="sizes-xlarg" class="checkbox">X Larg
+                            <input type="checkbox" id="sizes-xlarg">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                </div>
+               <div class="products_brands">
+                    <div class="side-title">Brands</div>
+                    <div class="brands">
+                        <label for="brands-reebok" class="checkbox">Reebok
+                            <input type="checkbox" id="brands-reebok">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                    <div class="brands">
+                        <label for="brands-adidas" class="checkbox">Adidas
+                            <input type="checkbox" id="brands-adidas">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                    <div class="brands">
+                        <label for="brands-nike" class="checkbox">Nike
+                            <input type="checkbox" id="brands-nike">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                    <div class="brands">
+                        <label for="brands-active" class="checkbox">Active
+                            <input type="checkbox" id="brands-active">
+                            <span class="custom-checkbox"></span>
+                        </label>
+                    </div>
+                </div>
+           </div>
+           <div class="products_all__show">
+                <div class="products_all__content">
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                        <div class="product-item_first">
+                            <img class="product-item_pic" src="img/content/products/product1.png" alt="">
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <span class="product-item_price">100$</span>
+                        </div>
+                        <div class="product-item_second">
+                            <ul class="product-item_slider">
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                            </ul>
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <div class="product-item_sizes">
+                                <span>sizes   :</span>
+                                <ul class="sizes-list">
+                                    <li><span>s</span></li>
+                                    <li><span>m</span></li>
+                                    <li><span>l</span></li>
+                                    <li><span>xl</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-item_colors">
+                                <a class="product-color_pink" href="" data-slide-index="0"></a>
+                                <a class="product-color_blue" href="" data-slide-index="1"></a>
+                                <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                                <a class="product-color_green" href="" data-slide-index="3"></a>
+                            </div>
+                            <div class="product-item_buttons">
+                                <a href="#" class="product-item_web"></a>
+                                <a href="#" class="product-item_buy"></a>
+                                <a href="#" class="product-item_favourite"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                       <div class="product-item_first">
+                            <img class="product-item_pic" src="img/content/products/product2.png" alt="">
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <span class="product-item_price">100$</span>
+                        </div>
+                        <div class="product-item_second">
+                            <ul class="product-item_slider">
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                            </ul>
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <div class="product-item_sizes">
+                                <span>sizes   :</span>
+                                <ul class="sizes-list">
+                                    <li><span>s</span></li>
+                                    <li><span>m</span></li>
+                                    <li><span>l</span></li>
+                                    <li><span>xl</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-item_colors">
+                                <a class="product-color_pink" href="" data-slide-index="0"></a>
+                                <a class="product-color_blue" href="" data-slide-index="1"></a>
+                                <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                                <a class="product-color_green" href="" data-slide-index="3"></a>
+                            </div>
+                            <div class="product-item_buttons">
+                                <a href="#" class="product-item_web"></a>
+                                <a href="#" class="product-item_buy"></a>
+                                <a href="#" class="product-item_favourite"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                    <div class="product-item_first">
+                        <img class="product-item_pic" src="img/content/products/product3.png" alt="">
+                        <span class="product-item_title">Reebok Track Jacket</span>
+                        <span class="product-item_price">100$</span>
+                    </div>
+                    <div class="product-item_second">
+                        <ul class="product-item_slider">
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                        </ul>
+                        <span class="product-item_title">Reebok Track Jacket</span>
+                        <div class="product-item_sizes">
+                            <span>sizes   :</span>
+                            <ul class="sizes-list">
+                                <li><span>s</span></li>
+                                <li><span>m</span></li>
+                                <li><span>l</span></li>
+                                <li><span>xl</span></li>
+                            </ul>
+                        </div>
+                        <div class="product-item_colors">
+                            <a class="product-color_pink" href="" data-slide-index="0"></a>
+                            <a class="product-color_blue" href="" data-slide-index="1"></a>
+                            <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                            <a class="product-color_green" href="" data-slide-index="3"></a>
+                        </div>
+                        <div class="product-item_buttons">
+                            <a href="#" class="product-item_web"></a>
+                            <a href="#" class="product-item_buy"></a>
+                            <a href="#" class="product-item_favourite"></a>
+                        </div>
+                    </div>
+                </div>
+                   
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                        <div class="product-item_first">
+                            <img class="product-item_pic" src="img/content/products/product1.png" alt="">
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <span class="product-item_price">100$</span>
+                        </div>
+                        <div class="product-item_second">
+                            <ul class="product-item_slider">
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                            </ul>
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <div class="product-item_sizes">
+                                <span>sizes   :</span>
+                                <ul class="sizes-list">
+                                    <li><span>s</span></li>
+                                    <li><span>m</span></li>
+                                    <li><span>l</span></li>
+                                    <li><span>xl</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-item_colors">
+                                <a class="product-color_pink" href="" data-slide-index="0"></a>
+                                <a class="product-color_blue" href="" data-slide-index="1"></a>
+                                <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                                <a class="product-color_green" href="" data-slide-index="3"></a>
+                            </div>
+                            <div class="product-item_buttons">
+                                <a href="#" class="product-item_web"></a>
+                                <a href="#" class="product-item_buy"></a>
+                                <a href="#" class="product-item_favourite"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                       <div class="product-item_first">
+                            <img class="product-item_pic" src="img/content/products/product2.png" alt="">
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <span class="product-item_price">100$</span>
+                        </div>
+                        <div class="product-item_second">
+                            <ul class="product-item_slider">
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                            </ul>
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <div class="product-item_sizes">
+                                <span>sizes   :</span>
+                                <ul class="sizes-list">
+                                    <li><span>s</span></li>
+                                    <li><span>m</span></li>
+                                    <li><span>l</span></li>
+                                    <li><span>xl</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-item_colors">
+                                <a class="product-color_pink" href="" data-slide-index="0"></a>
+                                <a class="product-color_blue" href="" data-slide-index="1"></a>
+                                <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                                <a class="product-color_green" href="" data-slide-index="3"></a>
+                            </div>
+                            <div class="product-item_buttons">
+                                <a href="#" class="product-item_web"></a>
+                                <a href="#" class="product-item_buy"></a>
+                                <a href="#" class="product-item_favourite"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                    <div class="product-item_first">
+                        <img class="product-item_pic" src="img/content/products/product3.png" alt="">
+                        <span class="product-item_title">Reebok Track Jacket</span>
+                        <span class="product-item_price">100$</span>
+                    </div>
+                    <div class="product-item_second">
+                        <ul class="product-item_slider">
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                        </ul>
+                        <span class="product-item_title">Reebok Track Jacket</span>
+                        <div class="product-item_sizes">
+                            <span>sizes   :</span>
+                            <ul class="sizes-list">
+                                <li><span>s</span></li>
+                                <li><span>m</span></li>
+                                <li><span>l</span></li>
+                                <li><span>xl</span></li>
+                            </ul>
+                        </div>
+                        <div class="product-item_colors">
+                            <a class="product-color_pink" href="" data-slide-index="0"></a>
+                            <a class="product-color_blue" href="" data-slide-index="1"></a>
+                            <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                            <a class="product-color_green" href="" data-slide-index="3"></a>
+                        </div>
+                        <div class="product-item_buttons">
+                            <a href="#" class="product-item_web"></a>
+                            <a href="#" class="product-item_buy"></a>
+                            <a href="#" class="product-item_favourite"></a>
+                        </div>
+                    </div>
+                </div>
+                   
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                        <div class="product-item_first">
+                            <img class="product-item_pic" src="img/content/products/product1.png" alt="">
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <span class="product-item_price">100$</span>
+                        </div>
+                        <div class="product-item_second">
+                            <ul class="product-item_slider">
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                                <li><img src="img/content/products/product1.png" alt=""></li>
+                            </ul>
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <div class="product-item_sizes">
+                                <span>sizes   :</span>
+                                <ul class="sizes-list">
+                                    <li><span>s</span></li>
+                                    <li><span>m</span></li>
+                                    <li><span>l</span></li>
+                                    <li><span>xl</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-item_colors">
+                                <a class="product-color_pink" href="" data-slide-index="0"></a>
+                                <a class="product-color_blue" href="" data-slide-index="1"></a>
+                                <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                                <a class="product-color_green" href="" data-slide-index="3"></a>
+                            </div>
+                            <div class="product-item_buttons">
+                                <a href="#" class="product-item_web"></a>
+                                <a href="#" class="product-item_buy"></a>
+                                <a href="#" class="product-item_favourite"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                       <div class="product-item_first">
+                            <img class="product-item_pic" src="img/content/products/product2.png" alt="">
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <span class="product-item_price">100$</span>
+                        </div>
+                        <div class="product-item_second">
+                            <ul class="product-item_slider">
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                                <li><img src="img/content/products/product2.png" alt=""></li>
+                            </ul>
+                            <span class="product-item_title">Reebok Track Jacket</span>
+                            <div class="product-item_sizes">
+                                <span>sizes   :</span>
+                                <ul class="sizes-list">
+                                    <li><span>s</span></li>
+                                    <li><span>m</span></li>
+                                    <li><span>l</span></li>
+                                    <li><span>xl</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-item_colors">
+                                <a class="product-color_pink" href="" data-slide-index="0"></a>
+                                <a class="product-color_blue" href="" data-slide-index="1"></a>
+                                <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                                <a class="product-color_green" href="" data-slide-index="3"></a>
+                            </div>
+                            <div class="product-item_buttons">
+                                <a href="#" class="product-item_web"></a>
+                                <a href="#" class="product-item_buy"></a>
+                                <a href="#" class="product-item_favourite"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" onclick="window.location = 'product.html';">
+                    <div class="product-item_first">
+                        <img class="product-item_pic" src="img/content/products/product3.png" alt="">
+                        <span class="product-item_title">Reebok Track Jacket</span>
+                        <span class="product-item_price">100$</span>
+                    </div>
+                    <div class="product-item_second">
+                        <ul class="product-item_slider">
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                            <li><img src="img/content/products/product3.png" alt=""></li>
+                        </ul>
+                        <span class="product-item_title">Reebok Track Jacket</span>
+                        <div class="product-item_sizes">
+                            <span>sizes   :</span>
+                            <ul class="sizes-list">
+                                <li><span>s</span></li>
+                                <li><span>m</span></li>
+                                <li><span>l</span></li>
+                                <li><span>xl</span></li>
+                            </ul>
+                        </div>
+                        <div class="product-item_colors">
+                            <a class="product-color_pink" href="" data-slide-index="0"></a>
+                            <a class="product-color_blue" href="" data-slide-index="1"></a>
+                            <a class="product-color_indigo" href="" data-slide-index="2"></a>
+                            <a class="product-color_green" href="" data-slide-index="3"></a>
+                        </div>
+                        <div class="product-item_buttons">
+                            <a href="#" class="product-item_web"></a>
+                            <a href="#" class="product-item_buy"></a>
+                            <a href="#" class="product-item_favourite"></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <a href="" class="product-item_more">...</a>
+            </div>
+            
+        </div>
+        <div class="container">
+        </div>
+    </section>
+    
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe-content">
+                <span class="subscribe-title">News Letter</span>
+                <span class="subscribe-description">join us now to get all news and special offers</span>
+                <form action="" class="subscribe-form">
+                    <div class="input-field_wrap">
+                        <input type="text" class="input-field" name="mail" placeholder="type your email here">
+                    </div>
+                    <input type="submit" value="join us" class="g-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="img/header/header-logo.png" class="footer-logo_img" alt="logotype">
+                <span class="footer-copyright">shopy c 2015 . your copy right here</span>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-nav_list">
+                    <li><a href="">about us</a></li>
+                    <li><a href="">contuct us</a></li>
+                    <li><a href="">support</a></li>
+                </ul>
+                <ul class="footer-nav_list">
+                    <li><a href="">our feed</a></li>
+                    <li><a href="">terms and conditions</a></li>
+                    <li><a href="">our privacy</a></li>
+                </ul>
+                <ul class="footer-nav_list">
+                    <li><a href="">join us</a></li>
+                    <li><a href="">live support</a></li>
+                </ul>
+            </nav>
+            <div class="footer-pay">
+                <span>Payment Methods</span>
+                <img src="img/footer/pay.png" alt="">
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.sandwich').click(function() {
+                var menu = $('.header-nav__list');
+                $(this).toggleClass('active');
+                if (menu.is(':visible')) {
+                    menu.slideUp();
+                } else {
+                    menu.slideDown();
+                }
+            })
+            //Product's slider(preview)
+            $('.product-item_slider').bxSlider({
+                controls: false,
+                pagerCustom: '.product-item_colors'
+            });
+            $('.sizes-list li').click(function(){
+                $(this).siblings().removeClass('active');
+                $(this).toggleClass('active');
+                
+            })
+        });
+    </script>
+    <!--
+    <script type="text/javascript" src="js/jquery-validation-1.17.0/lib/jquery.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
+    <srcipt src="js/jquery-validation-1.17.0/dist/additional-methods.js"></srcipt>
+    <script src="js/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <script src="js/slick-1.8.0/slick/slick.min.js"></script>
+    -->
+</body>

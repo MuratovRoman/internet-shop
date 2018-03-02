@@ -1,0 +1,110 @@
+.products_all-wrap {
+    margin-top: 120px;
+}
+.products_all-wrap .container {
+    display: flex;
+    justify-content: space-between;
+}
+.products_categories,
+.price-filter,
+.products_sizes,
+.products_brands {
+    display: block;
+    margin: 0 30px 30px 0;
+    padding: 40px;
+    width: 270px;
+    background-color: #fff;
+    
+}
+
+.category,
+.sizes,
+.brands {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.products_all-side label {
+    cursor: pointer;
+}
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+.checkbox input[type="checkbox"]:checked + .custom-checkbox:before {
+    color: #ff5912;
+    border: 4px solid #ff5912;
+}
+.checkbox {
+    position: relative;
+    display: block;
+    padding-left: 25px;
+}
+.custom-checkbox {
+    position: absolute;
+    left: 0;
+}
+.custom-checkbox:before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #edf0f2;
+}
+.category:last-child {
+    margin-bottom: 0;
+}
+.category input[type="radio"] {
+    display: none;
+}
+.category input[type="radio"]:checked + label {
+    color: #ff5912;
+}
+.side-title {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ff5912;
+    font-weight: 900;
+}
+.price-filter-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.price-filter-text input[type="text"] {
+    width: 45px;
+    height: 25px;
+    border: none;
+    background-color: #edf0f2;
+}
+.price-filter input[type="range"] {
+    width: 100%;
+}
+.price-from,
+.price-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-filter-text span {
+    margin-right: 15px;
+}
+
+
+
+.products_all__show {
+    display: flex;
+    flex-direction: column;
+}
+.products_all__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products_all__content .product-item {
+    float: none;
+    margin-right: 30px;
+}
+.products_all__content .product-item:nth-child(3n) {
+    margin-right: 0;
+}
