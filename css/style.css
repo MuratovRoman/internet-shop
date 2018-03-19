@@ -450,6 +450,7 @@ js-index-slider {
 }
 .product-item_second .product-item_title {
     color: #ff5912;
+    cursor: pointer;
 }
 .product-item_slider img{
     display: block;
